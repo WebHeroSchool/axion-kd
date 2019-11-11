@@ -100,7 +100,7 @@ body {
 	margin: 0 4px 0 0;
 }
 
-.cart__numb {
+.cart__circle {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -110,6 +110,10 @@ body {
 	background: #000;
 	border: 1px solid #000;
 	border-radius: 50%;
+}
+
+.cart__numb {
+  margin: auto;
 	color: #fff;
 	font-size: 10px;
 	font-weight: bold;
@@ -133,14 +137,23 @@ body {
 }
 
 .background-image {
+	display: flex;
+	justify-content: flex-start;
 	width: 100%;
 	max-width: 1030px;
 	height: 280px;
 	margin: 0 0 53px;
-	padding: 89px 0 0 60px;
 	box-sizing: border-box;
 	background: url(../img/rob-potter-422534-unsplash.png);
 	background-size: cover;
+}
+
+.image-wrap {
+	display: flex;
+	justify-content: flex-end;
+	align-items: flex-end;
+	width: 255px;
+	height: 205px;
 }
 
 .image-inner {
@@ -360,11 +373,15 @@ body {
 		max-width: 930px;
 		height: 254px;
 		margin: 0 0 66px;
-		padding: 77px 0 0 54px;
+	}
+
+	.image-wrap {
+		width: 248px;
+		height: 186px;
 	}
 
 	.image-inner {
-		width: 208px;
+		width: 194px;
 	}
 
 	.slogan {
@@ -448,12 +465,16 @@ body {
 	.background-image {
 		height: 415px;
 		margin: 0 0 65px;
-		padding: 121px 0 0 44px;
 		background-position: -123px;
 	}
 
+	.image-wrap {
+		width: 370px;
+		height: 332px;
+	}
+
 	.image-inner {
-		width: 335px;
+		width: 325px;
 	}
 
 	.slogan {
@@ -594,8 +615,16 @@ body {
 	
 	.background-image {
 		height: 300px;
-		padding: 90px 0 0 35px;
 		background-position: -88px;
+	}
+
+	.image-wrap {
+		width: 265px;
+		height: 240px;
+	}
+
+	.image-inner {
+		width: 230px;
 	}
 
 	.slogan {
@@ -731,8 +760,16 @@ body {
 	.background-image {
 		height: 191px;
 		margin: 0 0 38px;
-		padding: 67px 0 0 48px;
 		background-position: -61px;
+	}
+
+	.image-wrap {
+		width: 178px;
+		height: 155px;
+	}
+
+	.image-inner {
+		width: 130px;
 	}
 
 	.slogan {
@@ -875,9 +912,17 @@ body {
 	.background-image {
 		height: 191px;
 		margin: 0 0 38px;
-		padding: 66px 0 0 30px;
 		background-position: -88px;
 		background-repeat: no-repeat;
+	}
+
+	.image-wrap {
+		width: 150px;
+		height: 155px;
+	}
+
+	.image-inner {
+		width: 130px;
 	}
 
 	.slogan {
